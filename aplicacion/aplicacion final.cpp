@@ -54,19 +54,17 @@ int main() {
 			cout << " Ingrese el voltaje " << endl;
 			cin >> volt;
 			if (r1>=1 && r1<=9999 && r2>=1 && r2<=9999 && r3>=1 && r3<=9999) {
+				
 				rt = r1+r2+r3;
 				it = vt/rt;
 				
-				p1 = v1*it;
-				p2 = v2*it;
-				p3 = v3*it;
-				
 				pt = volt*it;
-				v1 = r1*it;
 				
+				v1 = r1*it;
 				v2 = r2*it;
 				v3 = r3*it;
 				vt = rt*it;
+				
 				cout << "______________Respuestas_______________" << endl;
 				cout << " Resistencia 1(uno) " << r1 << endl;
 				cout << " Resistencia 2(dos) " << r2 << endl;
