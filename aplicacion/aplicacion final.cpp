@@ -80,10 +80,7 @@ int main() {
 				cout << " Intencidad 2(dos) " << it << endl;
 				cout << " Intencidad 3(tres) " << it << endl;
 				cout << " Intencidad Total  " << it << endl;
-				cout << "______________Respuestas_______________" << endl;
-				cout << " Potencia 1(uno) " << p1 << endl;
-				cout << " Potencia 2(dos) " << p2 << endl;
-				cout << " Potencia 3(tres) " << p3 << endl;
+				cout << "______________Respuesta_______________" << endl;
 				cout << " Potencia Total  " << pt << endl;
 			} else {
 				cout << " Error no puede ingresar resistencias o voltaje negativos " << endl;
