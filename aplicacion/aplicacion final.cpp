@@ -22,6 +22,7 @@ int main() {
 	float v1;
 	float v2;
 	float v3;
+	float v4;
 	float volt;
 	float vt;
 	do {
