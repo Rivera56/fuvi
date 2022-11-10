@@ -54,16 +54,10 @@ int main() {
 			cout << " Ingrese el voltaje " << endl;
 			cin >> volt;
 			if (r1>=1 && r1<=9999 && r2>=1 && r2<=9999 && r3>=1 && r3<=9999) {
-				
+				it=vt/rt;
 				rt = r1+r2+r3;
-				it = vt/rt;
+				vt=it*rt;
 				
-				pt = volt*it;
-				
-				v1 = r1*it;
-				v2 = r2*it;
-				v3 = r3*it;
-				vt = rt*it;
 				
 				cout << "______________Respuestas_______________" << endl;
 				cout << " Resistencia 1(uno) " << r1 << endl;
@@ -71,17 +65,9 @@ int main() {
 				cout << " Resistencia 3(tres) " << r3 << endl;
 				cout << " Resistencia Total  " << rt << endl;
 				cout << "______________Respuestas_______________" << endl;
-				cout << " Voltaje 1(uno) " << v1 << endl;
-				cout << " Voltaje 2(dos) " << v2 << endl;
-				cout << " Voltaje 3(tres) " << v3 << endl;
 				cout << " Voltaje Total  " << vt << endl;
 				cout << "______________Respuestas_______________" << endl;
-				cout << " Intencidad 1(uno) " << it << endl;
-				cout << " Intencidad 2(dos) " << it << endl;
-				cout << " Intencidad 3(tres) " << it << endl;
 				cout << " Intencidad Total  " << it << endl;
-				cout << "______________Respuesta_______________" << endl;
-				cout << " Potencia Total  " << pt << endl;
 			} else {
 				cout << " Error no puede ingresar resistencias o voltaje negativos " << endl;
 			}
