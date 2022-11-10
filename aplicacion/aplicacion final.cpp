@@ -54,8 +54,9 @@ int main() {
 			cout << " Ingrese el voltaje " << endl;
 			cin >> volt;
 			if (r1>=1 && r1<=9999 && r2>=1 && r2<=9999 && r3>=1 && r3<=9999) {
-				it=vt/rt;
+				
 				rt = r1+r2+r3;
+				it=vt/rt;
 				vt=it*rt;
 				
 				
