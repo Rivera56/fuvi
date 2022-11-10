@@ -56,8 +56,8 @@ int main() {
 			if (r1>=1 && r1<=9999 && r2>=1 && r2<=9999 && r3>=1 && r3<=9999) {
 				
 				rt = r1+r2+r3;
-				it=vt/rt;
-				vt=it*rt;
+				it=volt/rt;
+				volt=it*rt;
 				
 				
 				cout << "______________Respuestas_______________" << endl;
@@ -66,7 +66,7 @@ int main() {
 				cout << " Resistencia 3(tres) " << r3 << endl;
 				cout << " Resistencia Total  " << rt << endl;
 				cout << "______________Respuestas_______________" << endl;
-				cout << " Voltaje Total  " << vt << endl;
+				cout << " Voltaje Total  " << volt << endl;
 				cout << "______________Respuestas_______________" << endl;
 				cout << " Intencidad Total  " << it << endl;
 			} else {
